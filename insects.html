@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Apps Lab 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"   
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link active" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+    <h1>Insects by Anilkumar Palavelli</h1>
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-2">P</div>
+        <div class="col-sm-2">A</div>
+        <div class="col-sm-2">L</div>
+        <div class="col-sm-2">A</div>
+        <div class="col-sm-2">L</div>
+        <div class="col-sm-2">E</div>
+    </div>
+    <div class="row">
+        <div class="col-md">Proturans</div>
+        <div class="col-md">Alderflies</div>
+        <div class="col-md">Lacewings</div>
+        <div class="col-md">Antlions</div>
+        <div class="col-md">Leaf insects</div>
+        <div class="col-md">Earwigs</div>
+    </div>
+    <div>The Insects row is the first to break as the page gradually compresses. It's because the letters are made with a small size class, while the insects row is made with a medium size class.
+
+    </div>
+    <div class="container">
+        <img src="Proturans.jpg" class="img-fluid" alt="Proturans" width="250px" height="250px">
+        <img src="Antlions.jpeg" class="img-fluid" alt="Antlions" width="250px" height="250px">
+        <img src="earwigs.jpg" class="img-fluid" alt="earwigs" width="250px" height="250px">
+      </div>
+      <div>
+        <img src="Proturans.jpg" class="img-thumbnail" alt="Proturans" width="250px" height="250px">
+        <img src="Antlions.jpeg" class="img-thumbnail"  alt="Antlions" width="250px" height="250px">
+        <img src="earwigs.jpg" class="img-thumbnail" alt="earwigs" width="250px" height="250px">
+      </div>
+      <br>
+    <table class="table table-striped table-bordered table-hover table-sm">
+      <caption>Insects Table</caption>
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">Letter</th>
+            <th scope="col">Insect</th>
+            <th scope="col">City</th>
+            <th scope="col">River</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-warning">
+            <th scope="row">P</th>
+            <td>Proturans</td>
+            <td>Pennsylvania</td>
+            <td>Pocasset River</td>
+          </tr>
+          <tr class = "table-success">
+            <th scope="row">A</th>
+            <td>Alderflies</td>
+            <td>Albama</td>
+            <td>Amnicon River</td>
+          </tr>
+          <tr class="table-primary">
+            <th scope="row">L</th>
+            <td>Lacewings</td>
+            <td>Los Vegas</td>
+            <td>La Crosse River</td>
+          </tr>
+          <tr class="table-secondary">
+            <th scope="row" >A</th>
+            <td>Antlions</td>
+            <td>Arlington</td>
+            <td>Amite River</td>
+          </tr>
+          <tr class="table-dark">
+            <th scope="row">L</th>
+            <td>Leaf insects</td>
+            <td>Los Angeles</td>
+            <td>La Moine River</td>
+          </tr>
+          <tr class="table-light">
+            <th scope="row">E</th>
+            <td>Earwigs</td>
+            <td>Enid</td>
+            <td>Eek River</td>
+          </tr>
+        </tbody>
+    </table>
+    <br>
+    <label>All Buttons</label>
+    <br>
+    <button class="btn">P</button>
+    <button class="btn">A</button>
+    <button class="btn">L</button>
+    <button class="btn">A</button>
+    <button class="btn">L</button>
+    <button class="btn">E</button>
+    <br>
+    <label>Button Groups</label>
+    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+      <div class="btn-group" role="group" aria-label="first group">
+        <button type="button" class="btn btn-danger">P</button>
+        <button type="button" class="btn btn-danger">A</button>
+        <button type="button" class="btn btn-danger">E</button>
+      </div>
+
+      <div class="btn-group" role="group" aria-lable="second group">
+       <button type="button" class="btn btn-warning">L</button>
+       <button type="button" class="btn btn-warning">A</button>
+      </div> 
+      <div class="btn-group" role="group" aria-lable="third group">
+        <button type="button" class="btn btn-success">L</button>
+     </div> 
+   </div>
+   <br>
+   <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">Dropdown button</button>
+     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+       <a class="dropdown-item" href="basic.html">Basic Page</a>
+       <a class="dropdown-item" href="advanced.html">Advanced Page</a>
+ 
+     </div>
+   </div>
+   <br>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1" class="form-group">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Don't share your email with anyone else.</div>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1" class="form-group">Insect</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your insect">
+      </div>
+      <div class="form-check">
+        <label class="form-check-label" for="exampleCheck1">Sign up for newsletter? </label>
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <div class="card-group">
+      <div class="card" style="width: 18rem;">
+        <img src="Proturans.jpg" class="card-img-top" alt="Proturans">
+        <div class="card-body">
+          <h5 class="card-title">Proturans</h5>
+          <p class="card-text">Proturans are seldom seen soil animals, under 2mm long. They lack pigment, wings, eyes and antennae and are considered to be an ancient sister group to insects, alongside Collembola and Diplura. But the data collected so far has been ambiguous. Some studies suggest that all of the Entognatha are more closely related genetically to crustaceans than Hexapoda.</p>
+          <a href="https://www.chaosofdelight.org/protura" class="btn btn-primary">Proturans Page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="Antlions.jpeg" class="card-img-top" alt="Antlions">
+        <div class="card-body">
+          <h5 class="card-title">Antlions</h5>
+          <p class="card-text">The antlions are a group of about 2,000 species of insect in the neuropteran family Myrmeleontidae. They are known for the predatory habits of their larvae, which mostly dig pits to trap passing ants or other prey. In North America, the larvae are sometimes referred to as doodlebugs because of the marks they leave in the sand. </p>
+          <a href="https://en.wikipedia.org/wiki/Antlion" class="btn btn-primary">Antlions Page</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="earwigs.jpg" class="card-img-top" alt="Earwigs">
+        <div class="card-body">
+          <h5 class="card-title"><Em>Earwigs</Em></h5>
+          <p class="card-text">Earwigs make up the insect order Dermaptera. With about 2,000 species in 12 families, they are one of the smaller insect orders. Earwigs have characteristic cerci, a pair of forcep-like pincers on their abdomen, and membranous wings folded underneath short, rarely used forewings, hence the scientific order name, "skin wings". </p>
+          <a href="https://en.wikipedia.org/wiki/Earwig" class="btn btn-primary">Earwigs Page</a>
+        </div>
+      </div>
+    </div>
+   
+ 
+     
+
+
+
+</body>
+</html>
